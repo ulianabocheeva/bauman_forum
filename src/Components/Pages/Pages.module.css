@@ -1,0 +1,67 @@
+.registerDiv {
+    background-color: #C6D2FD;
+    padding: 10px;
+    margin: 15px auto;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 50%;
+}
+
+.loginDiv {
+    background-color: #C6D2FD;
+    padding: 10px;
+    margin: 100px auto;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 40%;
+}
+
+.popQuestionDiv {
+    padding: 10px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1;
+    width: 80%;
+}
+
+.questionPage {
+    flex: 1;
+    width: auto;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 30px
+}
+
+.label {
+    margin-bottom:5px;
+    align-items: flex-start;
+    color: #2D5BFF;
+}
+
+
+.mainPageDiv {
+    flex: 1;
+    background-color: #C6D2FD;
+    width:33%;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 30px;
+}
+
+input[type="submit"]:hover {
+    transition: background-color 0.3s;
+    background-color: #2D5BFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+}
